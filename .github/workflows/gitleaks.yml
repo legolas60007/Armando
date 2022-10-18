@@ -18,7 +18,7 @@ jobs:
     - name: gitleaks-action checkout(private)
       uses: actions/checkout@v2
       with:
-        repository: Armando
+        repository: legolas60007/Armando
         ref: master 
         token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
         path: ./gitleaksaction
